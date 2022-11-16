@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: macos-latest
+  vmImage: local
 
 steps:
 - task: ArchiveFiles@2
