@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: local
+  vmImage: Default
 
 steps:
 - task: ArchiveFiles@2
